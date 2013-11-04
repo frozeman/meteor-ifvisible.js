@@ -3,7 +3,7 @@
   "description": "Meteor wrapper package for https://github.com/serkanyersen/ifvisible.js/ce",
   "homepage": "https://github.com/serkanyersen/ifvisible.js/",
   "author": "Serkan Yerşen (http://serkan.io)",
-  "version": "0.9.8",
+  "version": "0.9.9",
   "git": "https://github.com/frozeman/meteor-ifvisible.js.git",
   "packages": {}
 }

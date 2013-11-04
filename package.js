@@ -9,6 +9,7 @@ Package.on_use(function (api) {
 
     // FILES
     api.add_files('lib/ifvisible.js/src/ifvisible.js', 'client');
+    api.add_files('export-ifvisible.js', 'client');
 });
 
 // Package.on_test(function (api) {
