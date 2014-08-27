@@ -1,19 +1,17 @@
 Package.describe({
-    summary: "Meteor wrapper package for https://github.com/serkanyersen/ifvisible.js/"
+	name: "mrt:ifvisible",
+    summary: "Meteor wrapper package for https://github.com/serkanyersen/ifvisible.js/",
+ 	version: "1.0.1",
+ 	git: "https://github.com/frozeman/meteor-ifvisible.js.git"
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
+    api.versionsFrom('METEOR@0.9.0');
 
     // EXPORT
     api.export('ifvisible');
 
     // FILES
-    api.add_files('lib/ifvisible.js/src/ifvisible.js', 'client');
-    api.add_files('export-ifvisible.js', 'client');
+    api.addFiles('lib/ifvisible.js/src/ifvisible.js', 'client');
+    api.addFiles('export-ifvisible.js', 'client');
 });
-
-// Package.on_test(function (api) {
-
-//     api.use('tinytest');
-
-// });

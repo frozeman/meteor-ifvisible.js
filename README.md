@@ -1,10 +1,12 @@
 Installation
 -----------
 
-    $ mrt add ifvisible
+    $ meteor add mrt:ifvisible
 
 Usage
 -----
 
 
-This is a meteor wrapper package for https://github.com/serkanyersen/ifvisible.js/
+This is a meteor wrapper package for `ifvisible` from Serkan Yerşen (http://serkan.io).
+
+See https://github.com/serkanyersen/ifvisible.js/ for more.
